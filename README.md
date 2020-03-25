@@ -12,3 +12,6 @@ The code in this script performs the following tasks:
 7. A nested for loop ensures that the motifs that get marked on the output image are distinctly colored via the particular colormap (jet is the default internal to the script).
 8. The counters ensure lines for each of the respective motifs and exons are properly spaced so there is no overlap across any lines drawn in the output image).
 
+
+Likewise, it accounts for all overlapping sequences, repeat sequences, and accounts for base length of the motifs themselves.
+
